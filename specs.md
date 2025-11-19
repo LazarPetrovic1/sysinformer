@@ -1,0 +1,2 @@
+2. System Resource Monitor with Custom Alerts
+A real-time system monitor displaying CPU, memory, disk, and network usage using Electron’s process and os modules. It visualizes data with React charts (e.g., Recharts) and triggers customizable desktop notifications when thresholds are exceeded. No external APIs needed—relies entirely on Node.js and OS-native features.
