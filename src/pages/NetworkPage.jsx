@@ -145,7 +145,7 @@ export default function NetworkPage() {
         {pingResult && (
           <div>
             <div>Alive: {pingResult.alive ? "Yes" : "No"}</div>
-            <div>Time: {pingResult.time} ms</div>
+            <div>Time: {pingResult.time}</div>
             <div>Host: {pingResult.host}</div>
           </div>
         )}
